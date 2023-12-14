@@ -2,15 +2,16 @@
     padding: 0;
     margin:0;
     text-decoration: none;
+    outline: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav{
     display:flex;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
     flex-wrap: wrap;
     background:grey;
-    padding: 1rem;
     position: sticky;
 }
 nav .logo {
@@ -48,6 +49,7 @@ nav .webmenu{
     background-color: inherit;
     background:grey;
     position:relative;
+
 }
 .service{
     padding: 1rem;

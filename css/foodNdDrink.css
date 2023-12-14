@@ -1,17 +1,44 @@
-ul.productDtls{
-    top: -1rem;
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    text-align: end;
-    width: 100%;
-    background: rebeccapurple;
+#productBody{
     position: relative;
-    flex-wrap: wrap;
+    top: -1em;
+    padding: 0px;
+    /* background-color: aquamarine; */
 }
-ul.productDtls li{
-    background-color: bisque;
-    padding: 1em 5em;
-    
+
+.product{
+    display: flex;
+    justify-content: center;
+    flex-grow: inherit;
+    align-items: center;
+    margin: 0.5em 0em;
+    height: 10em;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+
+.pitem{ 
+    width:100%;
+    text-align: end;
+    border: px solid;
+    /* background-color: antiquewhite; */
+}
+
+.pitem img{
+    height: inherit;
+    width: 13em;
+}
+
+.addbtn{
+    position: relative;
+    right: 50%;
+    padding:0em .3em;
+    font-size: 2em;
+    border-radius: 100%;
+    outline: none;
+    text-decoration: none
+}
+.productDetails{
+    font-size: 1.1em;
+    margin-right: 1em;
 }
