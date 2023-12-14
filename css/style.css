@@ -59,6 +59,7 @@ nav .webmenu{
     position:relative;
     font-size: 1.1rem;
     font-weight: 600;
+    text-shadow:.05rem .05rem .2rem rgb(43, 43, 43);
  }
  .service a:after{
     content: ' ';
