@@ -1,0 +1,17 @@
+ul.productDtls{
+    top: -1rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-align: end;
+    width: 100%;
+    background: rebeccapurple;
+    position: relative;
+    flex-wrap: wrap;
+}
+ul.productDtls li{
+    background-color: bisque;
+    padding: 1em 5em;
+    
+}
