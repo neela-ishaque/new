@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background:grey;
+    padding: 1rem;
+    position: sticky;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+    color:antiquewhite;
+    position: relative;
+} 
+nav .logo h1:after{
+    content: ' ';
+    height: .4rem;
+    width:0%;
+    left:1rem;
+    bottom:-1rem;
+    border-radius: 5px;
+    box-shadow: .2rem 0rem .3rem .1rem rgb(131, 120, 98);
+    background:wheat;
+    position: absolute;
+    transition: 0.6s ease-in-out;
+}
+
+.logo h1:hover:after{
+    width: 100%;
+}
+
+nav .logo img{
+    height: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    box-shadow: .2em .2em .2em  rgb(189, 178, 164),
+    .2em .2em .2em  rgb(189, 178, 164) inset ; 
+ }
+nav .webmenu{
+    width: 50%;
+    background-color: inherit;
+    background:grey;
+    position:relative;
+}
+.service{
+    padding: 1rem;
+    display: inline-block;
+ }
+
+ .service a{
+    color: wheat;
+    position:relative;
+    font-size: 1.1rem;
+    font-weight: 600;
+ }
+ .service a:after{
+    content: ' ';
+    height: .3rem;
+    width:0%;
+    left:0rem;
+    bottom:-1rem;
+    border-radius: 5px;
+    box-shadow: .2rem 0rem .3rem .1rem rgb(131, 120, 98);
+    background:wheat;
+    position: absolute;
+    transition: 0.4s ease-in-out;
+ }
+
+ .service a:hover:after{
+    width: 100%;
+}
