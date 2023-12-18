@@ -19,8 +19,15 @@ nav .logo {
     align-items: center;
     color:antiquewhite;
     position: relative;
+    padding: 2em;
 } 
-nav .logo h1:after{
+.logo a{
+    text-decoration: none;
+ color: antiquewhite;
+ font-size: larger;
+ font-weight: 600;
+}
+nav .logo a:after{
     content: ' ';
     height: .4rem;
     width:0%;
@@ -30,10 +37,11 @@ nav .logo h1:after{
     box-shadow: .2rem 0rem .3rem .1rem rgb(131, 120, 98);
     background:wheat;
     position: absolute;
+    top: 4em;
     transition: 0.6s ease-in-out;
 }
 
-.logo h1:hover:after{
+.logo a:hover:after{
     width: 100%;
 }
 
@@ -79,14 +87,7 @@ nav .webmenu{
  .service a:hover:after{
     width: 100%;
 }
-/* 
-.trow{
-    display: inline-block; 
-    padding: 1rem;
-    list-style: none;
-    margin: 1rem;    
-    width: 50%;
-} */
+
 body{
     background: rgb(162, 122, 70);
 }
@@ -135,3 +136,49 @@ ul.tables li{
 .trow li a{
     color: rgb(69, 46, 10);
 }
+.service a.aActive:after{
+    width: 100%;
+}
+.cartCount{
+    background-color:red;
+    font-size: .8em;
+    padding: .1em .4em;
+    border-radius: 50%;
+    position: relative;
+    bottom: 1.3em;
+    right: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
