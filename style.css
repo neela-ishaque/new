@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Gerstner Programm FSL",sans-serif;
+    
+}
+    /* navigation and logo <head>*/
+    Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid red;
+    font-size: 16px;       
+}
+
+.nav-right-side a { 
+    margin-right: 10px;
+    background-color: #F9B54A;
+    padding: 12px 15px;
+    border-radius: 50px;
+    
+}
+.nav:hover {
+    border-bottom: 1px solid #4acaf9;
+    padding: 2px;
+}
+.navigation-links{
+    display:flex;
+    gap: 30px;
+} 
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e58b8b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #c36a6a;}
+.dropdown:hover .dropdown-content {display: block;}
+
+/* .navigation-links:hover .nav {background-color: #F9B54A;} */ 
+
+ /* third-section */
+
+.third-section {
+    
+    display: flex;
+    gap: 6rem;
+    margin-top: 2rem; 
+    margin-left: 10px;
+
+}
+
+  /* third-section */
+
+
+footer h3 {
+                font-size: 32px;
+                font-weight: 200;
+                margin-bottom: 20px;
+                
+            }
+            
+            .footer-links {
+                border: 1px solid red;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .footer-left {
+                display: flex;
+                gap: 2rem;
+            }
+            
+            .left-column{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .footer-right{
+                display: flex ;
+                gap: 2rem;
+            }  
+            .right-column{
+                display:flex;
+                flex-direction: column;
+                gap:1rem;
+            }
+            .end{
+                margin:30px 10px;
+            }             
